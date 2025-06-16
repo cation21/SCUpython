@@ -4,4 +4,4 @@ def LT(n):
         for col in range(n-row+1):
             print("*", end="")
         print()
-    
+LT(5)
