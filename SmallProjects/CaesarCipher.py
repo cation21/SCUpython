@@ -1,5 +1,5 @@
-text = 'Hello I hope this code reaches you'
-shift = 3
+text = input("Input your text here")
+key = input("Input the key")
 
 def caesar(message, offset):
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
@@ -15,4 +15,4 @@ def caesar(message, offset):
     print('plain text:', message)
     print('encrypted text:', encrypted_text)
 
-caesar(text, shift)
+caesar(text, key)
